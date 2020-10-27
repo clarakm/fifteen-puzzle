@@ -1,0 +1,29 @@
+$light-grey: #e7e7e7;
+$babyblue: #ebfbff;
+
+html,
+body {
+	background-color: $light-grey;
+	font-family: arial;
+}
+.app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: $babyblue;
+	height: 800px;
+	width: 800px;
+}
+
+.tile {
+	height: 190px;
+	width: 190px;
+	border: 1px solid black;
+	margin: 4px 2px 2px 4px;
+}
