@@ -1,4 +1,4 @@
-# fifteen-puzzle
+# Fifteen Puzzle
 
 Project Brief:
 
